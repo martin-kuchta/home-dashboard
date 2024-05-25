@@ -3,7 +3,9 @@ let config = {
     {
       module: "clock",
       position: "fullscreen_above",
-      config: {},
+      config: {
+        displayType: "both"
+      },
     },
   ],
 };
