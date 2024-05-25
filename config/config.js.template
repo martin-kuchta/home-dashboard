@@ -4,7 +4,13 @@ let config = {
       module: "clock",
       position: "fullscreen_above",
       config: {
-        displayType: "both"
+      },
+    },
+    {
+      module: "MMM-inspirobot",
+      position: "fullscreen_above",
+      config: {
+        updateInterval: 20 * 1000
       },
     },
   ],
